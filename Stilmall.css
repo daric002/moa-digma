@@ -1,0 +1,338 @@
+/*CSS för index.html*/
+body{
+    background-color: rgb(223, 221, 222);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+
+
+
+.logga{
+    border-radius: 20px;
+    display: flex;
+    margin: 30px;
+}
+
+#hemsidan{
+    background-image: url("navbild.jpg");
+    width:100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#navstartsida{
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+ul{
+   display: flex;
+   width: 80%;
+   justify-content: flex-end;
+}
+
+
+#navstartsida ul li{
+    float: right;
+    padding-top: 30px;
+    display: inline-block;
+    padding-right: 30px;
+
+}
+
+ul li a{
+    font-size: 25px;
+    padding-right: 25px;
+    color:rgb(41, 29, 38);
+    text-decoration:none;
+}
+
+h1{
+    color: rgb(68, 58, 70);
+    font-size: 30px;
+    text-align: center;
+    word-spacing: p7x;
+    letter-spacing: 3px;
+}
+
+.rubrikh1{
+    color: rgb(68, 58, 70);
+    font-size: 25px;
+    text-align: center;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+    padding-top: 40px;
+}
+
+
+
+h2{
+    font-size: 20px;
+    color: rgb(68, 58, 70);
+
+}
+
+
+h4{
+   font-size: 18px;
+}
+
+
+
+
+p{
+  font-size: 17px;
+  color: rgb(68, 58, 70);
+  text-align: center;
+
+}
+
+div{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.container:hover{
+   width: 200px;
+   height: 270px;
+   border-radius: 20px;
+   background-color: rgb(194, 179, 192);
+   transition: ease 0.7s;
+}
+
+.Daniel .Irma .Gabriella .Martin .Albin{
+    border-radius: 20px;
+}
+
+
+
+#bottom{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(206, 199, 204);
+    
+}
+
+.footerinfo{
+    display: inline-block;
+    color: rgb(134, 119, 131);
+    padding-left: 350px;
+}
+
+.ikoner .fab{
+    color: rgb(134, 119, 131);
+    margin: 0 13px;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 30px
+}
+
+
+/*Medarbetarsidor*/
+
+.navfalt{
+    background-color: rgb(206, 199, 204);
+    width: 100%;
+    height: 130px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.navfalt ul li{
+    display: inline-block;
+    padding-top: 40px;
+    padding-right: 20px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+button{
+    background-color: rgb(155, 146, 153);
+    margin-top: 0;
+    border-bottom: 5px;
+    font-size: 15px;
+}
+
+
+.container2{
+    display: flex;
+    border: solid rgb(255, 255, 255);
+    margin-left:10em;
+    margin-right: 10em;
+    margin-top: 6em;
+
+}
+
+#Daniel, #Irma, #Gabriella, #Martin, #Albin{
+    float: left;
+
+}
+
+.medarbetartext{
+    float: right;
+}
+
+.brodtext-medarbetare{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.tutorialrubrik{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+.i-linje{
+     display: inline-block;
+     padding-left: 100px;
+     padding-bottom: 70px;
+}
+
+.visaklipp{
+    padding-left: 80px;
+}
+
+.tutorial{
+   padding-left: 100px;
+    width: 300px;
+    height: 210px;
+
+}
+
+.marginruta{
+    padding-bottom: 100px;
+}
+
+.artikelruta{
+   width: 330px;
+   height: 140px;
+   background-color:rgb(194, 179, 192);
+   border-radius: 20px;
+}
+
+h3{
+  font-size: 20px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  color: rgb(70, 61, 71);
+}
+
+
+
+#botten,
+#botten2,
+#botten3,
+#botten4,
+#botten5,
+#botten6{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(206, 199, 204);
+}
+
+
+
+/*Artikelsida*/
+
+.artikel-rubrik{
+    text-align: center; 
+}
+
+
+.artikel-container{
+    width:auto;
+    height: auto;
+    background-color: rgb(168, 154, 166);
+    border-radius: 20px;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.artikelmarginal{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.heading{
+    font-size: 30px;
+    color: rgb(73, 67, 72);
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.skrivenav{
+    font-size: 25px;
+    color: rgb(61, 56, 60);
+}
+
+.artikel-innehall{
+  font-size:17px;
+}
+
+.malgrupp,
+.trender,
+.uppmarksamhet{
+    width: 200px;
+    height: 150;
+    width: 20%;
+    padding-left: 30px;
+}
+
+.fargerihop{
+    width: 300px;
+    height: 170px;
+}
+
+
+
+
+/*Länkar*/
+
+a{
+    color: rgb(68, 58, 70);
+    text-decoration: none;
+
+
+}
+
+a:hover{
+    color: rgb(250, 245, 249);
+
+}
+
+a#current{
+    color: rgb(105, 92, 103);
+    text-decoration: underline;
+
+}
+
+
+.ikoner{
+    font-size: 10px;
+    color: rgb(158, 137, 154);
+
+}
+
+.madeby{
+    text-align: center;
+}
+
+#tilltoppen{
+    float: right;
+    padding-right: 30px;
+}
+
+
+
